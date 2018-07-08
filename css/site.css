@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Cabin|Lobster');
+
+body {
+  font-size: 20px;
+  margin-top: 70px;
+  background-color: #0f8790;
+  color:rgb(7, 30, 65);
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 200px;
+}
+
+.panel-heading {
+  background-color: #0f8790;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lobster', cursive;
+  color: rgb(214, 199, 156);
+}
+
+.img-thumbnail{
+  margin:20px;
+}
+
+.pagination {
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  height: 60px;
+  background-color: rgb(214, 199, 156);
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.down-margin {
+  margin-bottom:70px;
+}
+
+.navbar {
+  background-color: #ad1d28;
+}
+
+.modal-content {
+  background-color: #0f8790;
+}
+
+
+/*@import url(http://fonts.googleapis.com/css?family=Vollkorn:700italic);
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #ddd;
+}
+
+#page {
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 12px;
+  width: 989px;
+}
+
+#menu {
+  float: right;
+}
+
+  #menu ul {
+    list-style: none;
+  }
+
+    #menu ul li {
+      display: inline;
+      margin: 0 4px;
+    }
+
+form > * {
+  display: block;
+}
+
+#logo a {
+  font-size: 60px;
+  font-family: 'Vollkorn', serif;
+  text-decoration: none;
+  color: #c14d00;
+  font-style: italic;
+}*/

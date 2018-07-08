@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Big Lebowski</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/creative.min.css" />
+  <link href="css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="page">
+    <header>
+      <div id="menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+          <button class="btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+          <div id="logo">
+            <a href="Index.html">
+              <h4>The Big Lebowski</h4>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav">
+              <a href="Index.html">Home</a>
+            </li>
+            <li class="nav">
+              <a href="About.html">About</a>
+            </li>
+            <li class="nav active">
+              <a href="Contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="#top">Top</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div id="top"></div>
+
+    <div class="container">
+      <div class="page-header">
+        <h1>Contact Us</h1>
+      </div>
+  
+      <section id="body">
+        <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
+
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="nameInput">Your Name</label>
+              <input type="text" name="nameInput" class="form-control" placeholder="Your Name Here" />
+            </div>
+            <div class="form-group">
+              <label for="emailInput">Email</label>
+              <input type="email" name="emailInput" class="form-control" placeholder="Your email here" />
+            </div>
+            <div class="form-group">
+              <label>Reason</label>
+              <select class="form-control">
+                <option>Adoration</option>
+                <option>Ordering a White Russian</option>
+                <option>Complaint</option>
+                <option>I am lost</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea cols="40" rows="6" class="form-control" placeholder="Your message here"></textarea>
+              <a href="#sentDialog" class="btn btn-default" data-toggle="modal">
+                Submit
+              </a>
+            </div>
+            <label>Favorite Character</label>
+            <div class="form-group">
+              <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default" id="Dude" data-toggle="tooltip" title="<img src='images/carousel-1.jpg' class='img-responsive' />" data-html="true">
+                  <input type="radio">The Dude</label>
+                <label class="btn btn-default" id="Donny" data-toggle="tooltip" title="<img src='images/carousel-2.jpg' class='img-responsive' />" data-html="true">
+                  <input type="radio" >Donny</label>
+                <label class="btn btn-default" id="Maude" data-toggle="tooltip" title="<img src='images/carousel-3.jpg' class='img-responsive' />" data-html="true">
+                  <input type="radio">Maude</label>
+                  <div class="btn-group">
+                      <button id="pickButton"  class="btn btn-default" data-toggle="dropdown"><span class="caret"></span> More</button>
+                      <ul id="dropDown" class="dropdown-menu">
+                        
+                        <li >
+                          <a href="#" tabindex="-1">Walter</a>
+                        </li>
+                        <div class="divider"></div>
+                        <li>
+                          <a href="#" tabindex="-1">Bunny</a>
+                        </li>
+                        <div class="divider"></div>
+                        <li>
+                          <a href="#" tabindex="-1">The Big Lebowski</a>
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+            </div>
+            <label>This is an example of a dropdown menu</label>
+            <div class="form-group">
+                <div class="dropdown">
+                    <button class="btn" data-toggle="dropdown">More</button>
+                    <ul  class="dropdown-menu" >
+                      <li >
+                        <a href="#" tabindex="-1">Walter</a>
+                      </li>
+                      <li>
+                        <a href="#" tabindex="-1">Bunny</a>
+                      </li>
+      
+                      <li>
+                        <a href="#" tabindex="-1">The Big Lebowski</a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+          </form>
+        </div>
+        <section class="col-md-6">
+            <div class="panel">
+                <div class="panel-heading"><h3 class="panel-title">Our fake address</h3></div>
+              <div class="panel-body">
+                <address>
+                  Big Lebowski Fan Page
+                  <br /> 123 Main Street
+                  <br /> Rug Ties The Room Together, CA 98765
+                  <br />
+                  <abbr title="Phone">P:</abbr>
+                  425.555.0100
+                </address>
+                <address>
+                  <strong>Support:</strong>
+                  <a href="mailto:Support@fakelebowskifansite.com">Support@fakelebowskifansite.com</a>
+                  <br />
+                  <strong>Marketing:</strong>
+                  <a href="mailto:Marketing@fakelebowskifansite.com">Marketing@fakelebowskifansite.com</a>
+                </address>
+              </div>
+            </div>
+          </section>
+      </section>
+
+      <section class="col-md-10">
+        <h3>Tab example</h3>
+        <ul class="nav nav-tabs nav-justified">
+          <li class="active"><a href="#tab1" data-toggle="tab">Tab 1</a></li>
+          <li><a href="#tab2" data-toggle="tab">Tab 2</a></li>
+          <li><a href="#tab3" data-toggle="tab">Tab 3</a></li>
+          <li><a href="#tab4" data-toggle="tab">Tab 4</a></li>
+          <li><a href="#tab5" data-toggle="tab">Tab 5</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="well tab-pane active" id="tab1">
+                <p>Yeah well, that's just, ya know, like, your opinion, man. Walter, you can't do that. These guys're like me, they're
+                    pacifists. Smokey was a conscientious objector. Your "revolution" is over, Mr. Lebowski! Condolences! The bums
+                    lost! Brandt can't watch though. Or he has to pay a hundred. HERE'S WHAT HAPPENS, LARRY! Darkness warshed over
+                    the Dude— darker'n a black steer's tookus on a moonless prairie night. There was no bottom.</p>
+            </div>
+            <div class="well tab-pane" id="tab2">
+                <p>Here's the name and number of a doctor who will look at it for you. You will receive no bill. He's a good man. And
+                    thorough. Nice marmot. You don't go out and make a living dressed like that in the middle of a weekday. Do you
+                    have any kalhua? Near the In-and-Out Burger. Nihilists! Jesus. Yes sir. It is our most modestly priced receptacle.
+                    Sir, this is a mortuary, not a rental house.</p>
+              </div>
+              <div class="well tab-pane" id="tab3"><p>Shomer shabbos. No, the, uh, police chief of Malibu. A real reactionary. Eight-year-olds, Dude. I'm unemployed. Dieter
+                  has been on the fringes of —well, of everything in L.A., for about twenty years. Look at my LP's. Under 'Autobahn.'.
+                  Another Caucasian, Gary. Yeah man. Well, you know, the Dude abides. Ahh, you know. Strikes and gutters, ups and
+                  downs. The nail polish, Walter. A fifteen-year-old? Is this your idea of a joke?</p></div>
+              <div class="well tab-pane" id="tab4"><p>One a those days, huh. Wal, a wiser fella than m'self once said, sometimes you eat the bar and sometimes the bar,
+                  wal, he eats you. 1972 Pontiac LeBaron. It increases the chances of conception. Walter, this isn't a First Amendment
+                  thing. But that is up to little Larry here. Isn't it, Larry? And I'm talkin' about the Dude here —sometimes there's
+                  a man who, wal, he's the man for his time'n place, he fits right in there—and that's the Dude, in Los Angeles.</p></div>
+              <div class="well tab-pane" id="tab5"><p>Mr. Lebowski asked me to repeat that: Her life is in your hands. They're nihilists. Now this story I'm about to unfold
+                  took place back in the early nineties —just about the time of our conflict with Sad'm and the Eye-rackies. I only
+                  mention it 'cause some- times there's a man—I won't say a hee-ro, 'cause what's a hee-ro?—but sometimes there's
+                  a man. Our basic freedoms.</p></div>
+        </div>
+        
+      </section>
+          
+    </div>
+      
+    
+
+    <footer>
+        <div class="row">
+          <ul class="pagination">
+              <li><a href="Index.html">&laquo;</a></li>
+              <li><a href="About.html">Previous</a></li>
+              <li><a href="Index.html">1</a></li>
+              <li><a href="About.html">2</a></li>
+              <li class="active"><a href="Contact.html">3</a></li>
+              <li><a href="Index.html">Next</a></li>
+              <li><a href="Contact.html">&raquo;</a></li>
+          </ul>
+        <p class="pull-right">Text placeholders courtesy of
+          <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
+        </div>
+    </footer>
+
+  </div>
+
+  <div class="modal fade" id="sentDialog" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4>Thanks for clicking!</h4>
+          <a href="#" class="close" data-dismiss="modal">&times;</a>
+        </div>
+        <div class="modal-body">
+          <p>This form doesn't really work</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+
+</html>
